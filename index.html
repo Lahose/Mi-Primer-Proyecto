@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER SMASH BROS</title>
+</head>
+<body>
+    <header style="width:100vw;background-color:rgb(219, 132, 200);">
+        <nav>
+            <ul style="display:flex; flex-direction:row; gap:30px; justify-content:center; align-items:center; list-style:none;">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./estructura.html">Estructura</a></li>
+                <li><a href="./formulario.html">Formulario</a></li>
+                <li><a href="./multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+         <section style="display:flex;justify-content:center;padding:0px;">
+            <h1 style="font-size:40px; margin:10px;">Trabajo HTML</h1>
+         </section>
+         <!-- Comienzo de sección de Estructura Básica HTML -->
+        <section>
+            <h1>1. Estructura Básica del Documento HTML</h1>
+            <p>Este documento HTML, tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+        </section>
+        <!-- Comienzo de sección de Encabezado y Propiedades del Texto -->
+        <section>
+            <h2>2. Encabezado y Propiedades del Texto</h2>
+            <p style="font-weight:bold;">Este es un texto en negrita.</p>
+            <p style="font-style:italic;">Este es un texto en cursiva.</p>
+            <p style="text-decoration:underline;">Este es un texto subrayado.</p>
+        </section>
+        <!-- Comienzo de sección de Divisiones y Agrupación de Contenido -->
+        <section>
+            <h3>3. Divisiones y Agrupación de Contenido</h3>
+            <div>
+                <h4>Sección 1</h4>
+                <p>Contenido de la primera sección agrupada en div.</p>
+            </div>
+            <div>
+                <h4>Sección 2</h4>
+                <p>Contenido de la segunda sección agrupada en div.</p>
+            </div> 
+        </section>
+        <!-- Comienzo de sección de Enlaces y Listas -->
+        <section>
+            <h4>4. Enlaces y Listas</h4>
+            <p>Visita nuestro <a href="https://es.wikipedia.org/wiki/Super_Smash_Bros._Brawl" target="_blank">sitio web</a> para más información.</p>
+            <div>
+                <p>Enlaces internos</p>
+                <ul>
+                    <li><a href="./estructura.html">Ir a Estructura</a></li>
+                    <li><a href="./multimedia.html">Ir a Multimedia</a></li>
+                    <li><a href="./formulario.html">Ir a Formulario</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Lista desordenada:</p>
+                <ul>
+                    <li>Primer ítem de una lista desordenada.</li>
+                    <li>Segundo ítem de una lista desordenada.</li>
+                </ul>
+            </div>
+            <div>
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Primer ítem de una lista ordenada.</li>
+                    <li>Segundo ítem de una lista ordenada.</li>
+                </ol>
+            </div>
+        </section>
+        <!-- Comienzo de sección de Elementos Multimedia --> 
+        <section>
+            <h5>5. Elementos Multimedia</h5>
+            <img src="https://img.asmedia.epimg.net/resizer/v2/EAHFY6ROQNLU5F5RVMWMUHQN5U.jpg?auth=69a001a5e4b6954e5ef443b08b66f63c173612aab699be202da6d5db2d60da63&width=1472&height=828&smart=true" width="400px" alt="Todos los personajes de super smash bros ultimate con colores brillantes">
+            <video controls muted src="./media/Super_Smash_Bros_Brawl_Intro.mp4" width="400px"></video>
+            <audio controls><source src="./media/miau.m4a"></audio>
+        </section>
+        <!-- Comienzo de sección de Tablas -->
+        <section>
+            <h6>6. Tablas</h6>
+            <table style="border:1px solid black;">
+                <thead>
+                    <tr>
+                        <th style="border:1px solid black;">Columna 1</th>
+                        <th style="border:1px solid black;">Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border:1px solid black;">Dato 1</td>
+                        <td style="border:1px solid black;">Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td style="border:1px solid black;">Dato 3</td>
+                        <td style="border:1px solid black;">Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- Comienzo de sección de Formulario -->
+        <section>
+            <h2>7. Formulario</h2>
+            <form action="">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" placeholder="ejemplo@ejemplo.com">
+                <label for="Mensaje">Mensaje:</label>
+                <textarea name="Mensaje" placeholder="Escribir aquí..."></textarea>
+                <input type="submit" name="Enviar">
+            </form>
+        </section>
+    </main>
+    <!-- Comienzo de footer -->
+    <footer style="width:100vw;background-color:rgb(219, 132, 200); margin-top:20px; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+        <p>Todos los derechos reservados a Josefina Aguiar Vacas</p>
+        <p>Cualquier cosa contactarse con jojooaguiar247@gmail.com</p>
+    </footer>
+</body>
+</html>
